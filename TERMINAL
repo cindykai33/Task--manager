@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Complete project"
+git branch -M main
+git remote add origin https://github.com/cindykai33/task-manager.git
+git push -u origin main
