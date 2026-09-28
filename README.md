@@ -1,24 +1,57 @@
-Project Code: WST21-PM-2026-SF
-Student Name: Cindy Marie Jumao-as
-Course & Year: BSIT 7
-Database Used: MySQL
+# Personal Task Manager
 
+A Laravel-based Personal Task Manager that allows users to create, view, edit, delete, and update the status of tasks.
+
+## Project Information
+
+**Project Code:** WST21-PM-2026-SF
+
+**Student Name:** Cindy Marie Jumao-as
+
+**Course & Year:** BSIT 7
+
+**Database Used:** SQLite
+
+## Features
 
 - Add Task
 - View Tasks
 - Edit Task
 - Delete Task
 - Update Status
+  - Pending
+  - Completed
 
+## Task Fields
 
-- Laravel Framework
-- MySQL Database
-- Blade Views
+The tasks table contains:
+
+- ID
+- Task Name
+- Description
+- Status
+- Due Date
+- Created At
+- Updated At
+
+## Technologies Used
+
+- Laravel
+- PHP
+- SQLite
+- Blade
+- HTML
 - CSS
 
+## Laravel Structure
 
-1. Create database task_manager in phpMyAdmin
-2. Set .env DB credentials
-3. Run: composer install
-4. Run: php artisan migrate
-5. Run: php artisan serve
+The application follows the Laravel flow:
+
+**Routes → Controller → Model → Database → Blade**
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/cindykai33/Task--manager.git
