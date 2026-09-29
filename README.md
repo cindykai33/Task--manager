@@ -51,6 +51,13 @@ The application follows the Laravel flow:
 
 ## Installation
 
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+
 ### 1. Clone the repository
 
 ```bash
